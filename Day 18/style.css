@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    border: 2px solid red;
+    width: 25%;
+}
+
+.parent {
+    border: 1px solid black;
+    background-color: pink;
+    width: 50%;
+}
+
+.child {
+    border: 1px solid green;
+    background-color: skyblue;
+    width: 50% ;
+}
+.container{
+    border: 1px solid green;
+    background-color: lightgreen;
+    height: 100vh;
+    width: 50vw;
+}
+
+.wrapper {
+    font-size: 1em;
+  }
+  
+  .px {
+    width: 200px;
+  }
+  
+  .vw {
+    width: 10vw;
+  }
+  
+  .em {
+    width: 10em;
+  }

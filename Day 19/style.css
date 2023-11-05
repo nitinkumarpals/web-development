@@ -1,0 +1,39 @@
+*{
+    margin: 1px;
+    padding: 10px;
+}
+#img1{
+    height: 250px;
+    float: right;
+    margin: 1vh;
+    clear: right;
+}
+#img2{
+    height: 250px;
+    float: right;
+    margin: 1vh;
+    clear: right;
+}
+
+p{
+    text-align: justify;
+}
+.box{
+    border: 1px solid black;
+    overflow: auto;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: lightsalmon;
+    border: 1px solid yellowgreen;
+    float: left;
+}
+.container{
+    border: 2px solid black;
+    margin: 10px;
+    height: 250px;
+    width: 200px;
+    text-align: justify;
+    overflow: auto;
+}

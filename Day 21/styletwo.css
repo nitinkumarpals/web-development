@@ -1,0 +1,39 @@
+.container{
+    border: 5px solid black;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    width: 450px;
+    margin: 10px;
+    padding: 3px;
+}
+
+@media (max-width:640px){
+    .container{
+        flex-direction: column;
+    }
+}
+#boxleft {
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 2px;
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+}
+
+#boxright{
+    background-color: yellowgreen;
+    border: 1px solid blue;
+    width: 47%;
+    margin: 3px;
+    padding: 2px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+p{
+    border: 1px solid yellow;
+}

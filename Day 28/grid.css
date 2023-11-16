@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(234, 178, 178);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,200px);
+    gap: 0.4rem;
+    padding: 4rem;
+    border: 5px solid black;
+    /* justify-items: center; */
+    place-items: center;
+}
+.items{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(78, 122, 28);
+    border: 5px solid rgb(217, 202, 202);
+    /* justify-self: center;
+    align-self: end; */
+    /* place-self: center; */
+}

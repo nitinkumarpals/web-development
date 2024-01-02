@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600;700;900&family=Poppins:wght@300;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: black;
+}
+.main {
+  background-image: url(assets/images/bg.jpg);
+  height: 70vh;
+  position: relative;
+  background-position: center center;
+  background-size: max(1300px, 100vw);
+  background-repeat: no-repeat;
+}
+
+.main .box {
+  height: 70vh;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  width: 74vw;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 70px;
+}
+nav img {
+  width: 150px;
+  position: relative;
+  z-index: 10;
+}
+
+nav button {
+  position: relative;
+  z-index: 10;
+}
+
+.hero {
+  height: calc(100% - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  gap: 15px;
+  padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+
+.hero> :nth-child(2) {
+  font-weight: 400px;
+  font-size: 24px;
+  text-align: center;
+
+}
+
+.hero> :nth-child(3) {
+  font-weight: 400px;
+  font-size: 20px;
+  text-align: center;
+}
+.separation{
+    height: 7px;
+    background-color: rgb(45, 44, 44);
+}
+
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.btn-red{
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+}
+
+.hero-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+.main input{
+    padding: 5px 101px 12px 23px;
+    font-size: 12px;
+    font-weight: 900;
+    border-radius: 4px;
+    background-color: black;
+    opacity: 0.50;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
+}

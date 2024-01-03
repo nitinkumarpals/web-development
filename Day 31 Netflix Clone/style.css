@@ -100,7 +100,7 @@ nav button {
 }
 
 .btn-red-sm {
-background-color: red;
+  background-color: red;
   color: white;
 }
 
@@ -120,7 +120,7 @@ background-color: red;
   color: white;
 }
 
-.first{
+.first {
   display: flex;
   justify-content: center;
   max-width: 70vw;
@@ -129,45 +129,117 @@ background-color: red;
   align-items: center;
 }
 
-.secImg{
+.secImg {
   position: relative;
   top: 10px;
   bottom: 10px;
 }
 
-.secImg img{
+.secImg img {
   width: 25vw;
   position: relative;
   z-index: 10;
 }
 
-.secImg video{
+.secImg video {
   position: absolute;
   top: 50px;
   width: 19vw;
-  right: 47px;
+  right: 37px;
 }
-section.first{
+section.first {
   margin-bottom: 10px;
 }
-section.first > div{
+section.first > div {
   display: flex;
   flex-direction: column;
 }
 
-section.first > div :nth-child(1){
+section.first > div :nth-child(1) {
   font-size: 48px;
   font-weight: bolder;
 }
-section.first > div :nth-child(2){
+section.first > div :nth-child(2) {
   font-size: 24px;
 }
-.faqbox{
-  display: flex;
+
+.faq h2 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.faq svg {
+  filter: invert(1);
+}
+
+.faq {
+  background: black;
+  color: white;
   padding: 34px;
-  background-color: gray;
+  font-size: 24px;
+}
+
+.faqbox:hover {
+  background-color: #414141;
+}
+
+.faqbox {
+  display: flex;
+  padding: 24px;
+  background-color: #2d2d2d;
   justify-content: space-between;
   flex-direction: row;
-  margin: auto;
+  margin: 11px auto;
   width: 80%;
+  cursor: pointer;
+}
+footer{
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+
+.footer-item {
+  display: flex;
+  flex-direction: column;
+}
+
+footer span{
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+}
+footer span:nth-child(2){
+  text-decoration: underline;
+}
+.footer a{
+  text-decoration: underline;
+  font-size: 14px;
+  color: rgba(255,255,255,0.7);
+}
+
+.faq input {
+  padding: 5px 101px 12px 23px;
+  font-size: 12px;
+  font-weight: 900;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  color: white;
+}
+.faqhero > :nth-child(1) {
+  font-weight: 400px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 30px 0px 10px 0px;
 }

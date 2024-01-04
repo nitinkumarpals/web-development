@@ -32,7 +32,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  height: 70px;
+  height: 85px;
 }
 nav img {
   width: 150px;
@@ -46,7 +46,7 @@ nav button {
 }
 
 .hero {
-  height: calc(100% - 70px);
+  height: calc(100% - 85px);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -129,6 +129,15 @@ nav button {
   align-items: center;
 }
 
+.first-second{
+
+}
+@media  screen and (max-width: 834px) {
+  
+  .first{
+    flex-wrap: wrap;
+  }
+}
 .secImg {
   position: relative;
   top: 10px;
@@ -136,16 +145,30 @@ nav button {
 }
 
 .secImg img {
-  width: 25vw;
+  width: 345px;
   position: relative;
   z-index: 10;
 }
 
 .secImg video {
   position: absolute;
-  top: 50px;
+  top: 88px;
   width: 19vw;
-  right: 37px;
+  right: 40px;
+  width: 260px;
+}
+
+.secImg-third img{
+  width: 345px;
+  position: relative;
+}
+
+.secImg-third video{
+  position: relative;
+  width: 210px;
+  right: -65px;
+  top: -228px;
+  
 }
 section.first {
   margin-bottom: 10px;
@@ -153,6 +176,7 @@ section.first {
 section.first > div {
   display: flex;
   flex-direction: column;
+  padding: 34px 0px;
 }
 
 section.first > div :nth-child(1) {
@@ -211,12 +235,16 @@ footer{
   flex-direction: column;
 }
 
-footer span{
+footer .qns{
   color: rgba(255,255,255,0.7);
   text-decoration: none;
+  padding: 34px 0px;
+  display: inline-block;
 }
-footer span:nth-child(2){
+.num{
   text-decoration: underline;
+  color: rgba(255,255,255,0.7);
+  font-size: 1rem;
 }
 .footer a{
   text-decoration: underline;

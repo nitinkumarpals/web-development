@@ -34,22 +34,22 @@ export const products = [
     {
         imgURL: shoe4,
         name: "Nike Air Jordan-01",
-        price: "$200.20",
+        price: "₹18,305.20",
     },
     {
         imgURL: shoe5,
         name: "Nike Air Jordan-10",
-        price: "$210.20",
+        price: "₹17,475.01",
     },
     {
         imgURL: shoe6,
         name: "Nike Air Jordan-100",
-        price: "$220.20",
+        price: "₹18,323.80",
     },
     {
         imgURL: shoe7,
         name: "Nike Air Jordan-001",
-        price: "$230.20",
+        price: "₹19,155.94",
     },
 ];
 
@@ -74,7 +74,7 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Arichid Sync',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
@@ -113,7 +113,7 @@ export const footerLinks = [
         title: "Get in touch",
         links: [
             { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "+91 5548602354", link: "tel:+91554862354" },
         ],
     },
 ];
